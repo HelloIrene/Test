@@ -66,7 +66,8 @@ public class UserDAO {
 				emp.setComm(rs.getDouble("COMM"));
 				emp.setDepartName(rs.getString("DNAME"));
 				//emp.setDepartName(rs.getString("DNAME"));
-				//emp.setDepartName(rs.getString("DEPARTMENTNAME"));			
+				//emp.setDepartName(rs.getString("DEPARTMENTNAME"));	
+				System.out.print("QuQ");
 			}
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
